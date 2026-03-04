@@ -1,0 +1,33 @@
+services:
+  backend:
+    build: ./backend
+    image: lakhdeep04/notesapp-backend:latest
+    container_name: backend
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+    volumes:
+      - ./backend:/app # bind mount backend code
+      - /app/node_modules
+
+  frontend:
+    build: ./frontend
+    image: lakhdeep04/notesapp-frontend:latest
+    container_name: frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    volumes:
+      - ./frontend:/app # bind mount frontend code
+      - /app/node_modules
+    command: sh -c "npm install && npm run dev -- --host"
+
+networks:
+  app-network:
+    driver: bridge

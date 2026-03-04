@@ -1,0 +1,24 @@
+[33mcommit 8df0aa7051d9195470766f7353499bdb20ab4cc4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Lakhdeepss <119160774+Lakhdeepss@users.noreply.github.com>
+Date:   Wed Mar 4 21:10:02 2026 +0530
+
+    Reset git tracking
+
+[33mcommit 08236e8169f4df5c08b700d2b54673f0f60ef461[m
+Merge: 0397223 2b1c0bc
+Author: Lakhdeepss <119160774+Lakhdeepss@users.noreply.github.com>
+Date:   Wed Mar 4 20:38:18 2026 +0530
+
+    Merge branch 'main' of https://github.com/Lakhdeepss/AWS_NOTES
+
+[33mcommit 03972235339e9cb4b1a01532dc761c1d5a2d7e28[m
+Author: Lakhdeepss <119160774+Lakhdeepss@users.noreply.github.com>
+Date:   Wed Mar 4 20:35:30 2026 +0530
+
+    files added
+
+[33mcommit 2b1c0bc58aa81e46597d0420db64887a0f664f65[m
+Author: Lakhdeepss <119160774+Lakhdeepss@users.noreply.github.com>
+Date:   Wed Mar 4 19:46:28 2026 +0530
+
+    Initial commit
