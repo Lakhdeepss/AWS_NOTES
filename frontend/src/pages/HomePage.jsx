@@ -15,7 +15,7 @@ function HomePage() {
         const fetchNotes = async () => {
             setLoading(true);
             try {
-                const url = 'http://localhost:3000/api/getNotes'
+                const url = 'http://3.25.217.179:3000/api/getNotes'
                 const response = await axios.get(url);
                 setNotes(response.data);
                 console.log(notes);

@@ -10,7 +10,7 @@ const NoteCard = ({ note, setNotes }) => {
         e.preventDefault();
         if (!window.confirm("Are you sure you want to delete this note?")) return;
         try {
-            const response = await axios.delete(`http://localhost:3000/api/deleteNotes/${id}`);
+            const response = await axios.delete(`http://3.25.217.179:3000/api/deleteNotes/${id}`);
             setNotes((prevNotes) => prevNotes.filter((note) => note._id !== id));
 
         }

@@ -19,7 +19,7 @@ function CreatePage() {
 
         try {
             setLoading(true);
-            const url = "http://localhost:3000/api/postNotes";
+            const url = "http://3.25.217.179:3000/api/postNotes";
             const response = await axios.post(url, { title, content });
 
             toast.success("Note created successfully!");
